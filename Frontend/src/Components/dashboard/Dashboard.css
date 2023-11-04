@@ -20,7 +20,7 @@
     --black2: #999;
 }
 
-body {
+.body1 {
     min-height: 100vh;
 
 }
@@ -137,7 +137,7 @@ body {
 }
 
 
-.main {
+.main1 {
     position: absolute;
     width: calc(100% - 300px);
     left: 250px;

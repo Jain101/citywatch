@@ -1,11 +1,12 @@
-import Dashboard from './Components/Dashboard'
-import './App.css'
+import Dashboard from './Components/dashboard/Dashboard'
+import Register from './Components/register/Register'
 
 function App() {
 
   return (
     <>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Register />
     </>
   )
 }

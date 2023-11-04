@@ -10,7 +10,7 @@ import ClipLoader from "react-spinners/ScaleLoader";
 
 function Dashboard() {
     return (
-        <>
+        <div className="body1">
             <div>
                 <>
                     <p>
@@ -85,7 +85,7 @@ function Dashboard() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="main">
+                        <div className="main1">
                             <div className="topbar">
                                 <div className="toggle">
                                     <ion-icon name="menu-outline" />
@@ -394,7 +394,7 @@ function Dashboard() {
                     <p />
                 </>
             </div>
-        </>
+        </div>
     );
 }
 

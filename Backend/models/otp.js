@@ -22,7 +22,6 @@ const otpSchema = new mongoose.Schema(
     }
 );
 
-//Schema ke baad model ke pehle use kareing pre or post
 async function sendVerificationMessage(phoneNumber, otp) {
     try {
         const mailResponse = await otpSender(phoneNumber, otp);
